@@ -7,3 +7,4 @@ transformers
 flash-attn>=2.0.0,<=2.0.5
 SentencePiece==0.1.99
 tensorboard==2.14.0
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
