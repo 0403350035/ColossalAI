@@ -1,4 +1,4 @@
-transformers>=4.32.0
+transformers>=4.37.0
 colossalai>=0.3.1
 peft
 tabulate
@@ -10,3 +10,8 @@ matplotlib
 pandas
 seaborn
 scikit-learn
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ray>=2.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
