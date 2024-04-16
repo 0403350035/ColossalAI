@@ -13,9 +13,15 @@ torchrec==0.2.0
 contexttimer
 einops
 triton==2.0.0.dev20221202
-requests==2.27.1 # downgrade to avoid huggingface error https://github.com/huggingface/transformers/issues/17611
+requests==2.31.0 # downgrade to avoid huggingface error https://github.com/huggingface/transformers/issues/17611
 SentencePiece
 ninja
 flash_attn==2.0.5
 datasets
 #auto-gptq now not support torch1.12
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+ray>=2.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
