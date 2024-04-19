@@ -3,7 +3,7 @@ tqdm
 datasets
 loralib
 colossalai==0.3.3
-torch<2.0.0, >=1.12.1
+torch<2.2.0, >=1.12.1
 langchain
 tokenizers
 fastapi
@@ -12,3 +12,4 @@ wandb
 sentencepiece
 gpustat
 tensorboard
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
