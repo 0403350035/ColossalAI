@@ -11,3 +11,4 @@ ninja
 torch>=1.12
 safetensors
 einops
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
