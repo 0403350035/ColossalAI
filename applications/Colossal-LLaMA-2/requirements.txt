@@ -1,4 +1,4 @@
-torch<2.0.0, >=1.12.1
+torch<2.6.0
 packaging==23.1
 colossalai==0.3.2
 autoflake==2.2.1
