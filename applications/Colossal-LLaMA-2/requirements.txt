@@ -11,5 +11,6 @@ ninja==1.11.1
 flash-attn>=2.0.0,<=2.0.5
 tqdm
 sentencepiece==0.1.99
-protobuf<=3.20.0
+protobuf<=4.25.8
 
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
