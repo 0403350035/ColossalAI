@@ -1,4 +1,4 @@
-transformers >= 4.23
+transformers>=4.53.0
 colossalai
 evaluate
 tqdm
