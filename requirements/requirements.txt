@@ -8,6 +8,6 @@ click
 fabric
 contexttimer
 ninja
-torch>=1.12
+torch>=2.2.0
 safetensors
 einops
