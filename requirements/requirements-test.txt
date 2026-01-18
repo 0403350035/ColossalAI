@@ -19,3 +19,7 @@ ninja
 flash_attn==2.0.5
 datasets
 #auto-gptq now not support torch1.12
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
