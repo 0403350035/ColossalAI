@@ -1,4 +1,6 @@
 colossalai >= 0.3.2
-torch >= 1.8.1
+torch>=2.10.0
 datasets >= 1.8.0
 transformers >= 4.30.2
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
