@@ -1,7 +1,12 @@
 colossalai >= 0.1.12
-torch >= 1.8.1
+torch>=2.10.0
 tqdm
 tensorboard
 numpy
 h5py
 wandb
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
